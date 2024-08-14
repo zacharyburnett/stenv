@@ -77,10 +77,6 @@ jobs:
               "pytest-doctestplus>=0.10.0"
               "requests_mock>=1.0"
             crds-observatory: jwst
-          # - package: pysynphot
-          #   test-dependencies: >-
-          #     pytest
-          #     pytest-remotedata
           - package: reftools
             test-dependencies: >-
               pytest-remotedata
